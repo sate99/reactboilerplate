@@ -19,9 +19,9 @@
 * CleverTap
 
 
-# Sentry
+### Sentry ###
 
-### Usage
+#### Usage
 
 ```js
 import { init } from '@sentry/browser';
@@ -31,7 +31,7 @@ init({
 });
 ```
 
-### API
+#### API
 
 First import library in your component 
 
@@ -65,9 +65,9 @@ Sentry.captureEvent({
 ```
 
 
-# CleverTap
+### CleverTap ###
 
-### Usage
+#### Usage
 
 ```js
 import ClevertapReact from '../lib/clevertap.js';
@@ -75,7 +75,7 @@ import ClevertapReact from '../lib/clevertap.js';
 ClevertapReact.initialize("CLEVERTAP_ACCOUNT_ID");
 ```
 
-### API
+#### API
 
 First import library in your component 
 
